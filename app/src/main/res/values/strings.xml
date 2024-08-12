@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">AR Draw Sketch</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="main_draw">Sketch</string>
+    <string name="favorite">Favorite</string>
+    <string name="import_photo">Import</string>
+    <string name="setting_privacy">Privacy information</string>
+    <string name="setting_version">Version update</string>
+    <string name="gp">https://play.google.com/store/apps/details?id=%s</string>
+    <string name="version">Version</string>
+</resources>

@@ -1,0 +1,30 @@
+<!-- res/drawable/seekbar_progress_drawable.xml -->
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@android:id/background">
+        <shape>
+            <corners android:radius="5dp" />
+            <solid android:color="#D3D3D3" /> <!-- 背景颜色 -->
+        </shape>
+    </item>
+
+    <item android:id="@android:id/secondaryProgress">
+        <clip>
+            <shape>
+                <corners android:radius="5dp" />
+                <solid android:color="#FFD700" /> <!-- 次级进度颜色 -->
+            </shape>
+        </clip>
+    </item>
+
+    <item android:id="@android:id/progress">
+        <clip>
+            <shape>
+                <corners android:radius="5dp" />
+                <gradient
+                    android:startColor="#4891FF"
+                    android:endColor="#6CE89E"
+                    android:angle="0" />
+            </shape>
+        </clip>
+    </item>
+</layer-list>

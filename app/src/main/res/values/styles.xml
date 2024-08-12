@@ -1,0 +1,10 @@
+<resources>
+    <!-- 其他样式定义 -->
+
+    <!-- 透明状态栏样式 -->
+    <style name="TransparentStatusBar" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+    </style>
+</resources>
